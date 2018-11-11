@@ -27,6 +27,10 @@ All that files are included with different method.
 This is new standard for use separated files.
 The files can be rendered on backend or on frontend
 
+Each file has just one responsibility,
+e.g.
+One Js-function in one file: function_name.js
+
 ## Example
 
 ### filesystem
