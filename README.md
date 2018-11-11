@@ -11,18 +11,21 @@ is more easy to change and create optimized webpage.
 
     + cmd
         + default.css
+        + render.js
         + default.js
         + default.html
+        + data.json
 
 
-### json config file
+### json config file, template.json
 
-    template.json
 
         {
-            include: [
-                'cmd/default.css',
-                'cmd/default.js',
-                'cmd/default.html',
+            format: 'file_path-render_type'
+            data: {
+                'cmd/default.css' : 'include',
+                'cmd/default.js': 'include',
+                'cmd/default.html': 'include',
+                'data.json': 'script-var',
             ]
         }
