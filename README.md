@@ -1,6 +1,8 @@
 ## Template
 Template as Service, get over ajax, backend service for frontend, based on nodejs
 
+Solutions for make uniq content, for uniqe logic on frontend.
+No more big files!
 
 ## Another projects
 This project is working together with:
@@ -31,6 +33,7 @@ Each file has just one responsibility,
 e.g.
 One Js-function in one file: function_name.js
 
+
 ## Example
 
 ### filesystem
@@ -49,9 +52,10 @@ One Js-function in one file: function_name.js
         {
             format: 'file_path-render_type'
             data: {
-                'cmd/default.css' : 'include',
-                'cmd/default.js': 'include',
-                'cmd/default.html': 'include',
-                'data.json': 'script-var-json',
+                'css/cmd/default.css' : 'include',
+                'js/cmd/default.js': 'include',
+                'html/cmd/default.html': 'include',
+                'data/menu.json': 'script-var-json',
+                'js/function/short_description_with_whole_words.js': 'script-content'
             ]
         }
