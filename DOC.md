@@ -1,12 +1,15 @@
 ## SIMILAR solution 
 Are existing solution with dependencies for JS
 
-## It'S neccessary to make The Map of solutions which are similar, but are difderents, and what can be good for the frontend in DevOpsTerminal
+## Concept
+It'S neccessary to make The Map of solutions which are similar, but are difderents, and what can be good for the frontend in DevOpsTerminal
 
 
 
 
-## Reveal
+### Reveal
+https://github.com/hakimel/reveal.js
+
 Has no information about solution, just async
 
 Reveal.initialize({
